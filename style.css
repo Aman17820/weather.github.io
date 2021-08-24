@@ -1,0 +1,26 @@
+*{
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    background-color: #36d1dc;
+}
+#app-container{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+#temp{
+    text-align: center;
+}
+#location{
+    font-family: sans-serif;
+    color: #e0e0e0;
+    font-size: 2rem;
+}
