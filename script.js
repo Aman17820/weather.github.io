@@ -13,7 +13,7 @@ window.addEventListener("load",()=>{
             long=position.coords.longitude;
             lat=position.coords.latitude;
             const proxy="https://cors-anywhere.herokuapp.com/";
-            const api=`$https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${long}&appid=800d96356ffd842bd596d9b9d10d1558`;
+            const api=`https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${long}&appid=800d96356ffd842bd596d9b9d10d1558`;
             fetch(api)
                 .then(response=>{
                     return response.json();
