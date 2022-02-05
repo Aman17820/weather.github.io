@@ -8,6 +8,7 @@ body{
     background-color: #36d1dc;
 }
 #app-container{
+    background-image: url("clouds.jpg");
     border: 1px solid black;
     display: flex;
     justify-content: center;
